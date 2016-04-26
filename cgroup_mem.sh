@@ -4,7 +4,7 @@
 current_user=$(whoami)
 cgroup_name="cgroup_test"
 sudo cgcreate -a $current_user:$current_user -t $current_user:$current_user  -g memory:$cgroup_name
-echo 10000 > /sys/fs/cgroup/memory/$cgroup_name/memory.limit_in_bytes # 10MB
+echo 10000 > /sys/fs/cgroup/memory/$cgroup_name/memory.limit_in_bytes 
 cat <<- _EOF_ > mem_alloc.c
 #include <stdio.h>
 #include <stdlib.h>
@@ -21,5 +21,5 @@ _EOF_
 
 cc mem_alloc.c -o mem_alloc
 
-# execute the program in the cgroup
+# execute the program in the cgroup (it gets killed)
 cgexec -g memory:$cgroup_name ./mem_alloc
