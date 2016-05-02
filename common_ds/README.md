@@ -1,2 +1,2 @@
 # common_ds
-Common data structures in C
+Common data structures and algorithms in C
