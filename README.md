@@ -12,3 +12,5 @@ Simple test with memory cgroup
 Try to list the log files of an application
 Example usage: sudo ./list_logs.sh $(pidof mysqld)
 
+# decorators
+A python module containing some decorators I wrote
