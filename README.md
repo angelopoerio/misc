@@ -14,3 +14,6 @@ Example usage: sudo ./list_logs.sh $(pidof mysqld)
 
 # decorators
 A python module containing some decorators I wrote
+
+# connect_ld
+Block connections using the LD_PRELOAD trick
