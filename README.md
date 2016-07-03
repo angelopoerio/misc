@@ -17,3 +17,6 @@ A python module containing some decorators I wrote
 
 # connect_ld
 Block connections using the LD_PRELOAD trick
+
+# procs_swapping
+Get the swap space used by processes running on the system
