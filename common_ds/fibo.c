@@ -49,7 +49,7 @@ int main(int argc,char *argv[]) {
 
 	n = atoi(argv[2]);
 
-	if(n < 2)
+	if(n <= 0)
 	{
 		usage(argv);
 		return 1;
