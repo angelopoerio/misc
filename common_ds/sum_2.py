@@ -15,7 +15,7 @@ def print_pairs(arr, x): # better than naive O(n^2) solution
 
 def check_list(lst):
 	try:
-		arr = eval(lst)
+		arr = eval(lst) # unsafe as fuck
 		_ = [int(x) for x in arr]
 	except (SyntaxError, TypeError, ValueError):
 		print 'not a valid list of numbers!'
