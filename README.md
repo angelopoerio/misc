@@ -1,6 +1,9 @@
 #common_ds
 Common data structures and algorithms
 
+# useless_linux
+a tiny linux system for learning purpose
+
 # psyscall
 This bash script let you know the current syscall the given process is executing.
 Example usage: sudo ./psyscall $(pidof firefox)
