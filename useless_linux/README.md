@@ -5,10 +5,10 @@
   It is only for learning purpose!
 
 # Scripts
-  build_initrd.sh - build the initrd 
-  build_kernel.sh - download and compile a working kernel
-  run_system.sh   - run the build system in qemu
-  useless.sh      - utility script to automate all the steps
+*  build_initrd.sh - build the initrd 
+*  build_kernel.sh - download and compile a working kernel
+*  run_system.sh   - run the build system in qemu
+*  useless.sh      - utility script to automate all the steps
 
 # Author
   Angelo Poerio - <angelo.poerio@gmail.com>
