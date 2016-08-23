@@ -6,6 +6,7 @@
 
 # Scripts
 *  build_initrd.sh - build the initrd 
+** build_initrd_busybox.sh - use this script to generate an initrd with busybox (you get a minimal shell)
 *  build_kernel.sh - download and compile a working kernel
 *  run_system.sh   - run the build system in qemu
 *  useless.sh      - utility script to automate all the steps
