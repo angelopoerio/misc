@@ -20,3 +20,6 @@ Block connections using the LD_PRELOAD trick
 
 # procs_swapping
 Get the swap space used by processes running on the system
+
+# arp_notifier
+Check if a specified MAC address joins the network
