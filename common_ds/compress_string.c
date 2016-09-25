@@ -36,7 +36,7 @@ void compress(char *in,char *out) {
 	strcat(out,helper(current_char,counter));
 }
 
-main(int argc, char **argv) {
+int main(int argc, char **argv) {
 	char *compressed_string;
 	int or_len,com_len,i;
 	for(i = 1;i < argc;i++) {
@@ -45,7 +45,7 @@ main(int argc, char **argv) {
 		memset(compressed_string,0,or_len*2);
 		compress(argv[i],compressed_string);
 		com_len = strlen(compressed_string);
-		printf("Original: %s | Compressed: %s | Ratio: %.2f% \n", argv[i],
+		printf("Original: %s | Compressed: %s | Ratio: %.2f % \n", argv[i],
 							compressed_string,
 							((double)com_len/(double)or_len) * 100.0);
 		free(compressed_string);
