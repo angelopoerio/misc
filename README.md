@@ -23,3 +23,6 @@ Get the swap space used by processes running on the system
 
 # arp_notifier
 Check if a specified MAC address joins the network
+
+# kernel_oop_finder
+Look for kernel OOPs on remote systems (Fabric script)
