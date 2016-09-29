@@ -26,3 +26,6 @@ Check if a specified MAC address joins the network
 
 # kernel_oop_finder
 Look for kernel OOPs on remote systems (Fabric script)
+
+# make_swap
+One liner to add swap space
