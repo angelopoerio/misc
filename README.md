@@ -29,3 +29,6 @@ Look for kernel OOPs on remote systems (Fabric script)
 
 # make_swap
 One liner to add swap space
+
+# list_oom_score
+List oom_score of running processes
