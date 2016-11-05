@@ -4,12 +4,12 @@ This is a simple experiment to better understand the usage of the [perf tool] (h
 # Experiment setup
 * redis 3.2.3
 * a test python script that writes 10^6 keys
-* command used to profile everything: perf record -p $(pidof redis-server)
+* command used to profile everything: **perf record -p $(pidof redis-server)**
 
 # Results
-* The redis-server function with the biggest overhead is dictFind()
+* The redis-server function with the biggest overhead is **dictFind()** (you also have malloc() but it is libc-related)
 * ![Perf report](screenshots/perf_report.png?raw=true "Perf report")
-* it is defined in src/dict.c at line 492
+* it is defined in **src/dict.c at line 492**
 * 
 ```
 dictEntry *dictFind(dict *d, const void *key)
