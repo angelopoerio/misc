@@ -7,8 +7,7 @@ This is a simple experiment to better understand the usage of the [perf tool] (h
 * command used to profile everything: **perf record -p $(pidof redis-server)**
 
 # Results
-* The redis-server function with the biggest overhead is **dictFind()** (you also have malloc() but it is libc-related)
-** [.] are userl-space functions, [k] are kernel-space functions
+* The redis-server function with the biggest overhead is **dictFind()** (you also have malloc() but it is libc-related). [.] are userl-space functions, [k] are kernel-space functions
 * ![Perf report](screenshots/perf_report.png?raw=true "Perf report")
 * it is defined in **src/dict.c at line 492**
 * 
