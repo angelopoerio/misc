@@ -8,9 +8,9 @@ This is a simple experiment to better understand the usage of the [perf tool] (h
 
 # Results
 * The redis-server function with the biggest overhead is dictFind()
-** ![Perf report](screenshots/perf_report.png?raw=true "Perf report")
-** it is defined in src/dict.c at line 492
-** 
+* ![Perf report](screenshots/perf_report.png?raw=true "Perf report")
+* it is defined in src/dict.c at line 492
+* 
 ```
 dictEntry *dictFind(dict *d, const void *key)
 {
