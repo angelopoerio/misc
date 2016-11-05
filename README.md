@@ -8,6 +8,9 @@ Example usage: sudo ./psyscall $(pidof firefox)
 # cgroup_mem
 Simple test with memory cgroup
 
+# perf_tests
+An experiment with perf-tools
+
 # list_logs
 Try to list the log files of an application
 Example usage: sudo ./list_logs.sh $(pidof mysqld)
