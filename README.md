@@ -5,6 +5,9 @@ Common data structures and algorithms
 This bash script let you know the current syscall the given process is executing.
 Example usage: sudo ./psyscall $(pidof firefox)
 
+# security_stuff
+IT security related stuff
+
 # cgroup_mem
 Simple test with memory cgroup
 
