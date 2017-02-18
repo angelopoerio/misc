@@ -1,5 +1,6 @@
 #!/bin/bash
 # Create a LVM volume on loop devices
+# Run as root!
 # Author: Angelo Poerio <angelo.poerio@gmail.com>
 
 dd if=/dev/zero bs=100MB count=2 of=/tmp/disk1.img 
