@@ -36,6 +36,9 @@ Check if a specified MAC address joins the network
 # kernel_oop_finder
 Look for kernel OOPs on remote systems (Fabric script)
 
+# lvm_on_loop
+A script to create a LVM volume on loopback devices
+
 # sandbox
 A simple sandbox using unshare() and mount/network namespaces
 
