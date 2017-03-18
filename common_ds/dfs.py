@@ -14,7 +14,7 @@ if __name__ == '__main__':
              'C': set(['D']),
              'D': set([]),
              'E': set(['K']),
-             'K': set(['pippo'])}
+             'K': set([])}
     print 'Graph:'
     pprint(graph)
     print 'DFS of the graph starting from the node "A"'
