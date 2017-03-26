@@ -24,6 +24,9 @@ A python module containing some decorators I wrote
 # connect_ld
 Block connections using the LD_PRELOAD trick
 
+# mini_ptrace
+Trace syscalls of a process (try to emulate the strace command)
+
 # procs_swapping
 Get the swap space used by processes running on the system
 
