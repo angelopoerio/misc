@@ -1,6 +1,6 @@
 /*
   Trace syscalls of a process thanks to ptrace() - Author: Angelo Poerio <angelo.poerio@gmail.com>
-  It it intended for x86_64 Linux boxes!
+  It is intended for x86_64 Linux boxes!
   You can get a list of syscall here: https://filippo.io/linux-syscall-table/
 */
 
