@@ -1,3 +1,4 @@
+
 #common_ds
 Common data structures and algorithms
 
@@ -17,6 +18,10 @@ An experiment with perf-tools
 # list_logs
 Try to list the log files of an application
 Example usage: sudo ./list_logs.sh $(pidof mysqld)
+
+# gen_cert
+Generate a SSL certificate avoiding the interactive prompt
+
 
 # decorators
 A python module containing some decorators I wrote
