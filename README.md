@@ -15,6 +15,9 @@ Simple test with memory cgroup
 # perf_tests
 An experiment with perf-tools
 
+# HttpStats
+Retrieve system metrics by a simple Http interface
+
 # list_logs
 Try to list the log files of an application
 Example usage: sudo ./list_logs.sh $(pidof mysqld)
