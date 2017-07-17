@@ -18,6 +18,9 @@ An experiment with perf-tools
 # HttpStats
 Retrieve system metrics by a simple Http interface
 
+# show_io_sched.py
+show the I/O scheduler of each block device in the system
+
 # list_logs
 Try to list the log files of an application
 Example usage: sudo ./list_logs.sh $(pidof mysqld)
