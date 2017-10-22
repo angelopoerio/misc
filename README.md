@@ -28,6 +28,8 @@ Example usage: sudo ./list_logs.sh $(pidof mysqld)
 # gen_cert
 Generate a SSL certificate avoiding the interactive prompt
 
+# nr_dirty_pages
+Parse /proc/vmstat to get the number of dirty pages (pages that must be written to disks)
 
 # decorators
 A python module containing some decorators I wrote
