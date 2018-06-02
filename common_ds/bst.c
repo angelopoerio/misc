@@ -84,6 +84,17 @@ struct node* deleteNode(struct node* root, int key)
 	return root;
 }
 
+/* count the leaf nodes in the BST tree */
+int countLeafs(struct node *root) {
+	if(root == NULL)
+		return 0;
+
+	if(root->right == NULL && root->left == NULL)
+		return 1;
+
+	return countLeafs(root->right) + countLeafs(root->left);
+}
+
 int main()
 {
 	struct node *root = NULL;
