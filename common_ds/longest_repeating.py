@@ -1,7 +1,7 @@
 import sys
 
 # Out the character of the longest repeating sequence in a string
-# Ex: "aaabb" -> "b"
+# Ex: "aaabb" -> "a"
 #      "kkllccc" -> "c"
 # Complexity: O(n)
 # Author: Angelo Poerio <angelo.poerio@gmail.com>
