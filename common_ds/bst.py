@@ -29,13 +29,13 @@ class Tree(object):
             return
         lst.append(node.val)
         if self.left:
-            self.left.__inorder(self.left, lst) 
+            self.left.__preorder(self.left, lst) 
         if self.right:
-            self.right.__inorder(self.right, lst)
+            self.right.__preorder(self.right, lst)
 
     def preorder(self):
         vls=[]
-        self.__inorder(self,vls)
+        self.__preorder(self,vls)
         return vls
 
 
@@ -44,6 +44,6 @@ if __name__ == "__main__":
     tr.insert(2) 
     tr.insert(14) 
     tr.insert(90)         
-    print pre.inorder()
+    print tr.preorder()
             
          
